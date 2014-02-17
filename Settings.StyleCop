@@ -1,0 +1,49 @@
+<StyleCopSettings Version="105">
+  <GlobalSettings>
+    <CollectionProperty Name="RecognizedWords">
+      <Value>addr</Value>
+      <Value>atag</Value>
+      <Value>dest</Value>
+      <Value>dpf</Value>
+      <Value>ESM</Value>
+      <Value>ms</Value>
+      <Value>msg</Value>
+      <Value>num</Value>
+      <Value>PDU</Value>
+      <Value>resp</Value>
+      <Value>sar</Value>
+      <Value>sc</Value>
+      <Value>seqnum</Value>
+      <Value>SM</Value>
+      <Value>sms</Value>
+      <Value>subaddress</Value>
+      <Value>telematic</Value>
+      <Value>ussd</Value>
+    </CollectionProperty>
+  </GlobalSettings>
+  <Analyzers>
+    <Analyzer AnalyzerId="StyleCop.CSharp.DocumentationRules">
+      <Rules>
+        <Rule Name="FileMustHaveHeader">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="FileHeaderMustShowCopyright">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="FileHeaderMustHaveCopyrightText">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+      </Rules>
+      <AnalyzerSettings>
+        <StringProperty Name="CompanyName">PSMPP</StringProperty>
+        <StringProperty Name="Copyright">This project is licensed under the LGPLv3 as detailed in the LICENSE file</StringProperty>
+      </AnalyzerSettings>
+    </Analyzer>
+  </Analyzers>
+</StyleCopSettings>
