@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{595BCC9C-F96A-458B-8ECF-22C14051A6CC}</ProjectGuid>
+    <ProjectGuid>{20E96E28-7161-4AB3-A4AA-19747A103BC3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>PSMPP.Base</RootNamespace>

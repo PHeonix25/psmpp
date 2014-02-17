@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B7B329A3-5E18-4506-82B3-7EAB83960991}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ClassLibrary</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>PSMPP</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitattributes" />
+    <None Include=".gitignore" />
+    <None Include=".git\config" />
+    <None Include=".git\description" />
+    <None Include=".git\FETCH_HEAD" />
+    <None Include=".git\HEAD" />
+    <None Include=".git\hooks\README.sample" />
+    <None Include=".git\index" />
+    <None Include=".git\info\exclude" />
+    <None Include=".git\logs\HEAD" />
+    <None Include=".git\logs\refs\heads\dev" />
+    <None Include=".git\objects\12\d3a67b87e47ad74a3dbba31a7f5e686cc00dd5" />
+    <None Include=".git\objects\1f\f0c423042b46cb1d617b81efb715defbe8054d" />
+    <None Include=".git\objects\32\619d3491738ee01d1cac8bceeecaf391ef6270" />
+    <None Include=".git\objects\3c\599379d3de406e84825eeb56fefc477d070607" />
+    <None Include=".git\objects\6e\9fa0b60f3d21abe588b0a291c8adfe75f13788" />
+    <None Include=".git\objects\71\5865375040414a0f0a8f307c5dc247fe9c53b8" />
+    <None Include=".git\objects\7d\43e395dcb105a93165e3053d94e05ff0e4fb32" />
+    <None Include=".git\objects\80\8a2dfa4f167ab608a8e933a07c3e8421054db4" />
+    <None Include=".git\objects\85\34b4b69db56f7dc7b38780e48d9eb4d5e1ce72" />
+    <None Include=".git\objects\aa\c6bb54a1e790e3f5514a49feb254a8e8b81bfa" />
+    <None Include=".git\objects\pack\pack-0b2e94c05bc604ecd07cc6b1e2b103a830eb2a66.idx" />
+    <None Include=".git\objects\pack\pack-0b2e94c05bc604ecd07cc6b1e2b103a830eb2a66.pack" />
+    <None Include=".git\refs\heads\dev" />
+    <None Include=".git\refs\heads\master" />
+    <None Include=".git\refs\remotes\origin\master" />
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".git\ms-persist.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="PSMPP.Base\PSMPP.Base.csproj">
+      <Project>{20e96e28-7161-4ab3-a4aa-19747a103bc3}</Project>
+      <Name>PSMPP.Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="PSMPP.Core\PSMPP.Core.csproj">
+      <Project>{662f7cac-b012-406c-9c27-2de7644c6d9e}</Project>
+      <Name>PSMPP.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="PSMPP.Helpers\PSMPP.Helpers.csproj">
+      <Project>{fc517186-0072-48e8-b2bb-67ba1aa10675}</Project>
+      <Name>PSMPP.Helpers</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".git\objects\info\" />
+    <Folder Include=".git\refs\tags\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
