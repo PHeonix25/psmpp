@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿//--------------------------------------------------------------------------
+// This project is licensed under the LGPLv3 as detailed in the LICENSE file
+//--------------------------------------------------------------------------
 using System.Reflection;
 
 [assembly: AssemblyVersionAttribute("0.1")]
-namespace PSMPP
-{
-}
