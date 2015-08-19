@@ -5,7 +5,7 @@
 namespace PSMPP.Base
 {
     /// <summary>
-    /// Placeholder for the architect in me.
+    ///     Placeholder for the architect in me.
     /// </summary>
     public class Class1
     {
